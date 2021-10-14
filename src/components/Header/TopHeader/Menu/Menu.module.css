@@ -1,0 +1,15 @@
+@import "../../../../theme/default.module.css";
+
+.Menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-weight: var(--fontWeightHard);
+    color: var(--grayishViolet);
+}
+
+li:hover {
+    color: var(--veryDarkBlue);
+    font-weight: var(--fontWeightHard);
+    cursor: pointer;
+}

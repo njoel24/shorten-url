@@ -1,0 +1,19 @@
+@import "../../../theme/default.module.css";
+
+.Button {
+    border: 0;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-weight: var(--fontWeightHard);
+    color: var(--grayishViolet);
+}
+
+.Button:hover {
+    background-color:  var(--cyan);
+    color: white;
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: var(--fontWeightHard);
+}
