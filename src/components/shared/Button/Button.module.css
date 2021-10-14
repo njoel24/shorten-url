@@ -1,19 +1,29 @@
 @import "../../../theme/default.module.css";
 
 .Button {
+    font-family: 'Poppins-Bold';
+    font-size: 1rem;
     border: 0;
     padding: 10px 20px;
     background-color: transparent;
+    border-radius: 18px;
     font-weight: var(--fontWeightHard);
     color: var(--grayishViolet);
+    cursor: pointer;
 }
 
 .Button:hover {
-    background-color:  var(--cyan);
+    background-color: var(--cyan);
+    opacity: 0.5;
     color: white;
-    border: 0;
-    border-radius: 12px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: var(--fontWeightHard);
+}
+
+.active {
+    background-color: var(--cyan);
+    color: white;
+}
+
+.large {
+    width: 150px;
+    padding: 15px 10px;
 }

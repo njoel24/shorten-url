@@ -5,7 +5,7 @@ import styles from './Account.module.css';
 const Account = () => (
   <ul className={styles.Account} data-testid="Account">
     <Button>Login</Button>
-    <Button>Sign Up</Button>
+    <Button active>Sign Up</Button>
   </ul>
 );
 
