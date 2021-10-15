@@ -10,6 +10,11 @@
   src: url("./assets/poppins/Poppins-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./assets/poppins/Poppins-SemiBold.ttf");
+}
+
 body {
   margin: 0;
   font-family: var(--fontFamily); 

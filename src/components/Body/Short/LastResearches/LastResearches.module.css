@@ -1,0 +1,30 @@
+.LastResearches {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HistoryItem{
+    font-family: 'Poppins-SemiBold';
+    font-size: 1rem;
+    color: var(--veryDarkBlue);
+    padding: 25px 20px;
+    background-color: white;
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    border-radius: 5px;
+    gap: 30px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Right {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: var(--cyan);
+    align-items: center;
+}

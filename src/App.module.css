@@ -4,6 +4,7 @@
   display: flex;
   width:  var(--appWidthDesktop);
   padding: 10px 100px;
+  flex-direction: column;
 }
 
 .AppContainer {

@@ -1,0 +1,20 @@
+.AdvancedStatistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AdvancedStatistics h1 {
+    margin-bottom: 0;
+}
+
+.AdvancedStatistics h6 {
+    margin-top: 10px;
+    color: var(--gray);
+    font-size: 1rem;
+}

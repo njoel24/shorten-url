@@ -1,11 +1,13 @@
 import Header from './components/Header/Header';
 import styles from './App.module.css';
+import Body from './components/Body/Body';
 
 function App() {
   return (
     <div className={styles.AppContainer} data-testid="App">
       <div className={styles.App} data-testid="App">
         <Header />
+        <Body />
       </div>
     </div>
   );

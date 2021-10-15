@@ -1,0 +1,39 @@
+.InfoBlock {
+    font-family: 'Poppins-SemiBold';
+    display: flex;
+    width: 200px;
+    height: 130px;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.InfoBlock:nth-child(3) {
+    top: 30px;
+}
+
+.InfoBlock:nth-child(5) {
+    top: 60px;
+}
+
+.InfoBlock h3 {
+    margin-bottom: 0;
+}
+
+.InfoBlock h6 {
+    margin-bottom: 0;
+}
+
+.InfoBlock .IconWrapper {
+    border-radius: 40px;
+    background-color: var(--veryDarkViolet);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+}

@@ -27,3 +27,7 @@
     width: 150px;
     padding: 15px 10px;
 }
+
+.square {
+    border-radius: 7px;
+}

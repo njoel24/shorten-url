@@ -1,0 +1,11 @@
+.InfoBlockWrapper {
+    display: flex;
+}
+
+.LinkBlock {
+    width: 30px;
+    height: 8px;
+    background-color: var(--cyan);
+    position: relative;
+    top: 100px;
+}
