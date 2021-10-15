@@ -1,0 +1,12 @@
+.Menu {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Poppins-SemiBold';
+}
+
+.Menu ul {
+    font-size: 0.9rem;
+    color: var(--gray);
+    list-style-type: none;
+    padding-left: 0;
+}
