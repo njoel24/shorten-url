@@ -1,19 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Button from '../../../shared/Button/Button';
+import { ShortContext } from '../Short.provider';
 import styles from './LastResearches.module.css';
 
-const LastResearches = () => (
-  <div className={styles.LastResearches} data-testid="LastResearches">
-    <div className={styles.HistoryItem}>
-      <span>https://testtest.com</span><div className={styles.Right}><span>https://kjhsx.com</span><Button active square>Copy</Button></div>
+const LastResearches = () => {
+  const {lastResearches} = useContext(ShortContext);
+
+  return (
+    <div className={styles.LastResearches} data-testid="LastResearches">
+      {lastResearches.map(({original_link, short_link}) => (
+        <div className={styles.HistoryItem}>
+          <span>{original_link}</span><div className={styles.Right}><span>{short_link}</span><Button active square>Copy</Button></div>
+        </div>
+      ))}
     </div>
-    <div className={styles.HistoryItem}>
-      <span>https://testtest.com</span><div className={styles.Right}><span>https://kjhsx.com</span><Button active square>Copy</Button></div>
-    </div>
-    <div className={styles.HistoryItem}>
-      <span>https://testtest.com</span><div className={styles.Right}><span>https://kjhsx.com</span><Button active square>Copy</Button></div>
-    </div>
-  </div>
-);
+  );
+} 
 
 export default LastResearches;
