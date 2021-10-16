@@ -9,7 +9,6 @@ export type ShortenResult = {
     original_link: string;
   }
   
-  
   export type ShortenResponse = {
     ok: string;
     result : ShortenResult;

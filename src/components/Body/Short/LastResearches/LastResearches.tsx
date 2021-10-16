@@ -9,7 +9,7 @@ const LastResearches = () => {
   return (
     <div className={styles.LastResearches} data-testid="LastResearches">
       {lastResearches.map(({original_link, short_link}) => (
-        <div className={styles.HistoryItem}>
+        <div key={Math.random()} className={styles.HistoryItem}>
           <span>{original_link}</span><div className={styles.Right}><span>{short_link}</span><Button active square>Copy</Button></div>
         </div>
       ))}
