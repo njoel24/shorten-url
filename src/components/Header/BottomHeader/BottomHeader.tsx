@@ -7,7 +7,7 @@ const BottomHeader = () => (
     <div className={styles.Left}>
       <h1>More than just shorten links</h1>
       <h6>Build your brand's recognition and get detailed insight on how your links are performing</h6>
-      <Button large active>Get Started</Button>
+      <Button large active dataTestid="BottomHeaderButton">Get Started</Button>
     </div>
   </div>
 );

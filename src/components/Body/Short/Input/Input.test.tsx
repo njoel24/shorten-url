@@ -6,9 +6,7 @@ import Input from './Input';
 describe('<Input />', () => {
   test('it should mount', () => {
     render(<Input />);
-    
     const input = screen.getByTestId('Input');
-
     expect(input).toBeInTheDocument();
   });
 });

@@ -1,16 +1,18 @@
 export type ShortenResult = {
-    ode: string;
+    code: string;
     short_link: string;
     full_short_link: string;
     short_link2: string;
     full_short_link2: string;
     share_link: string;
+    short_link3: string;
+    full_short_link3: string;
     full_share_link: string;
     original_link: string;
   }
   
   export type ShortenResponse = {
-    ok: string;
+    ok: boolean;
     result : ShortenResult;
   }
   

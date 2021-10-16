@@ -5,7 +5,7 @@ import styles from './TopFooter.module.css';
 const TopFooter = () => (
   <div className={styles.TopFooter} data-testid="TopFooter">
     <h1>Boost your Links today</h1>
-    <Button active large>Get Started</Button>
+    <Button active large dataTestid={'TopFooterButton'}>Get Started</Button>
   </div>
 );
 

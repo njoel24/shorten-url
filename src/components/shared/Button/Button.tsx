@@ -4,6 +4,7 @@ import classNames from 'classnames';
 
 export type ButtonProps = {
     id?: string;
+    dataTestid?: string
     children?: React.ReactNode;
     large?: boolean;
     active?: boolean;
@@ -11,9 +12,9 @@ export type ButtonProps = {
     onClickCallback?: (event: any) => void;
 }
 
-const Button = ({children, large, active, square, onClickCallback, id}: ButtonProps) => {
+const Button = ({children, large, active, square, onClickCallback, id, dataTestid}: ButtonProps) => {
     return (
-        <button id={id} className={classNames(styles.Button, {[styles.large]: large, [styles.active]: active, [styles.square]: square})} onClick={onClickCallback}>{children}</button>
+        <button data-testid={dataTestid} id={id} className={classNames(styles.Button, {[styles.large]: large, [styles.active]: active, [styles.square]: square})} onClick={onClickCallback}>{children}</button>
     )
 };
 

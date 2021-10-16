@@ -11,4 +11,10 @@ describe('<TopHeader />', () => {
 
     expect(topHeader).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<TopHeader />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });
