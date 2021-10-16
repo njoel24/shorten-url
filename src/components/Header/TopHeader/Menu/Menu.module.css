@@ -1,6 +1,4 @@
-@import "../../../../theme/default.module.css";
-
-.Menu {
+.TopHeaderMenu {
     display: flex;
     gap: 20px;
     list-style-type: none;
@@ -8,7 +6,7 @@
     color: var(--grayishViolet);
 }
 
-li:hover {
+.TopHeaderMenu li:hover {
     color: var(--veryDarkBlue);
     font-weight: var(--fontWeightHard);
     cursor: pointer;

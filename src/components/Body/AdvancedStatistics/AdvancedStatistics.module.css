@@ -1,20 +1,26 @@
 .AdvancedStatistics {
+    color: var(--veryDarkBlue);
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    justify-content: center;
-    width: 400px;
+    width: 500px;
     text-align: center;
     margin-top: 40px;
 }
 
+.AdvancedStatistics .ContentWrapper {
+    margin-bottom: 40px;
+}
+
 .AdvancedStatistics h1 {
+    font-family: 'Poppins-Bold';
     margin-bottom: 0;
+    font-size: 2.5rem;
 }
 
 .AdvancedStatistics h6 {
-    margin-top: 10px;
-    color: var(--gray);
-    font-size: 1rem;
+    font-family: 'Poppins-Light';
+    color: var(--grayishViolet);
+    margin-top: 20px;
+    font-size: 1.1rem;
 }

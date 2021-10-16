@@ -5,7 +5,7 @@ import styles from './Input.module.css';
 const Input = () => (
   <div className={styles.Input} data-testid="Input">
     <input className={styles.InputText} placeholder='Shorten a link here...' />
-    <Button active square>Shorten it!</Button>
+    <Button active square large>Shorten it!</Button>
   </div>
 );
 

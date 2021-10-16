@@ -1,13 +1,13 @@
 .InfoBlock {
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins-Regular';
     display: flex;
-    width: 200px;
-    height: 130px;
+    width: 300px;
+    min-height: 200px;
     flex-direction: column;
     background-color: white;
-    padding: 50px;
+    padding: 35px;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     position: relative;
 }
 
@@ -19,21 +19,32 @@
     top: 60px;
 }
 
-.InfoBlock h3 {
+.InfoBlock .ContentWrapper {
+    margin-top: 30px;
     margin-bottom: 0;
+}
+
+.InfoBlock h3 {
+    font-family: 'Poppins-Bold';
+    margin-bottom: 15px;
+    font-size: 1.4rem;
 }
 
 .InfoBlock h6 {
-    margin-bottom: 0;
+    font-family: 'Poppins-Light';
+    color: var(--grayishViolet);
+    margin-top: 0;;
+    line-height: 1.7;
+    font-size: 0.9rem;
 }
 
 .InfoBlock .IconWrapper {
-    border-radius: 40px;
-    background-color: var(--veryDarkViolet);
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    border-radius: 45px;
+    background-color: var(--darkViolet);
+    width: 45px;
+    height: 45px;
+    padding: 20px;
     position: absolute;
     top: -30px;
-    left: 40px;
+    left: 30px;
 }

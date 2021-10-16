@@ -1,9 +1,7 @@
-@import "../../../theme/default.module.css";
-
 .TopHeader {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color:  var(--gray);
     font-size: 0.9rem;
@@ -11,7 +9,6 @@
 
 .Left {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 28%;
+    width: 35%;
 }

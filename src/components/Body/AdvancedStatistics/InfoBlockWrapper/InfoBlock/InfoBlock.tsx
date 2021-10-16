@@ -12,8 +12,10 @@ const InfoBlock = ({description, Icon, title}: InfoBlockProps) => (
     <div className={styles.IconWrapper}>
       <Icon />
     </div>
-    <h3>{title}</h3>
-    <h6>{description}</h6>
+    <div className={styles.ContentWrapper}>
+      <h3>{title}</h3>
+      <h6>{description}</h6>
+    </div>
   </div>
 );
 

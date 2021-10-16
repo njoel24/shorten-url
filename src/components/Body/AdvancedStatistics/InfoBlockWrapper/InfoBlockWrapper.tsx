@@ -7,11 +7,11 @@ import {ReactComponent as brandRecognition } from '../../../../assets/icon-brand
 
 const InfoBlockWrapper = () => (
   <div className={styles.InfoBlockWrapper} data-testid="InfoBlockWrapper">
-    <InfoBlock Icon={detailedRecord} title={'Brand Recognition'} description={'Some Description'}></InfoBlock>
+    <InfoBlock Icon={brandRecognition} title={'Brand Recognition'} description={'Boost your brand recognition with each click. Generic links don\'t mean a thing. Branded links help instil confidence in your content.'}></InfoBlock>
     <div className={styles.LinkBlock}></div>
-    <InfoBlock Icon={fullyCustom} title={'Detailed Records'} description={'Some Description'}></InfoBlock>
+    <InfoBlock Icon={detailedRecord} title={'Detailed Records'} description={'Gain insights who is clicking your links. Knowing when and where people engage with your content  helps inform better decisions'}></InfoBlock>
     <div className={styles.LinkBlock}></div>
-    <InfoBlock Icon={brandRecognition} title={'Fully Customizable'} description={'Some Description'}></InfoBlock>
+    <InfoBlock Icon={fullyCustom} title={'Fully Customizable'} description={'Improve brand awareness and content discoverability through customizable links, supercharging audience engagement'}></InfoBlock>
   </div>
 );
 

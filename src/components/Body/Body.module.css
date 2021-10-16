@@ -1,8 +1,5 @@
-@import "../../theme/default.module.css";
-
 .Body {
     background-color: var(--darkVioletSemiTransparent);
-    padding: 30px 30px 150px;
 }
 
 .ContentWrapper {
