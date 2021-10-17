@@ -31,7 +31,8 @@
     font-size: 1.2rem;
     font-family: 'Poppins-Regular';
     color: var(--gray);
-    padding: 14px 0;
+    padding: 15px 5px 15px 5px;
+    box-sizing: border-box;
 }
 
 .Input.EmptySearchError {
@@ -55,7 +56,8 @@
 
     .Input {
         width: 100%;
-        padding: 15px 0;
+        padding: 15px 0 15px 5px;
+        box-sizing: border-box;
     }
     .InputContainer .ButtonContainer {
         width: 100%;
