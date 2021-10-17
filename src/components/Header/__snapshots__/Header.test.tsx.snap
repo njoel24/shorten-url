@@ -100,13 +100,6 @@ Object {
             data-testid="BottomHeader"
           >
             <div
-              class="Right"
-            >
-              <svg>
-                illustration-working.svg
-              </svg>
-            </div>
-            <div
               class="Left"
             >
               <h1>
@@ -121,6 +114,13 @@ Object {
               >
                 Get Started
               </button>
+            </div>
+            <div
+              class="Right"
+            >
+              <svg>
+                illustration-working.svg
+              </svg>
             </div>
           </div>
         </div>
@@ -223,13 +223,6 @@ Object {
           data-testid="BottomHeader"
         >
           <div
-            class="Right"
-          >
-            <svg>
-              illustration-working.svg
-            </svg>
-          </div>
-          <div
             class="Left"
           >
             <h1>
@@ -244,6 +237,13 @@ Object {
             >
               Get Started
             </button>
+          </div>
+          <div
+            class="Right"
+          >
+            <svg>
+              illustration-working.svg
+            </svg>
           </div>
         </div>
       </div>

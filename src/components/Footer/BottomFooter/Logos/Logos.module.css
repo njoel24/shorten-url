@@ -1,4 +1,9 @@
 .Logos {
     display: flex;
     gap: 20px;
+    cursor: pointer;
+}
+
+.Icon:hover path {
+    fill: var(--cyan);
 }

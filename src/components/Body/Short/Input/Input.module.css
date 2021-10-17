@@ -11,13 +11,13 @@
 }
 
 .InputContainer .ButtonContainer {
-    width: 20%;
+    width: 24%;
 }
 
 .InputWrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 76%;
 }
 
 .InputWrapper .EmptySearchErrorText {
@@ -31,7 +31,7 @@
     font-size: 1.2rem;
     font-family: 'Poppins-Regular';
     color: var(--gray);
-    padding: 14px 0 14px 14px;
+    padding: 14px 0;
 }
 
 .Input.EmptySearchError {
@@ -48,9 +48,14 @@
         justify-content: center;
         gap: 10px;
     }
+
+    .InputWrapper {
+        width: 100%;
+    }
+
     .Input {
         width: 100%;
-        padding: 10px 5px;
+        padding: 15px 0;
     }
     .InputContainer .ButtonContainer {
         width: 100%;

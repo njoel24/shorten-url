@@ -1,5 +1,7 @@
 .TopHeaderMenu {
+    font-family: 'Poppins-Bold';
     display: flex;
+    font-size: 1rem;
     gap: 20px;
     list-style-type: none;
     font-weight: var(--fontWeightHard);

@@ -7,10 +7,10 @@ import {ReactComponent as Instagram } from '../../../../assets/icon-instagram.sv
 
 const Logos = () => (
   <div className={styles.Logos} data-testid="Logos">
-    <Twitter />
-    <Pinterest />
-    <Faceboook />
-    <Instagram />
+    <Twitter className={styles.Icon} />
+    <Pinterest className={styles.Icon} />
+    <Faceboook className={styles.Icon} />
+    <Instagram className={styles.Icon} />
   </div>
 );
 

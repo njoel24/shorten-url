@@ -97,16 +97,24 @@ Object {
                 class="Logos"
                 data-testid="Logos"
               >
-                <svg>
+                <svg
+                  class="Icon"
+                >
                   icon-twitter.svg
                 </svg>
-                <svg>
+                <svg
+                  class="Icon"
+                >
                   icon-pinterest.svg
                 </svg>
-                <svg>
+                <svg
+                  class="Icon"
+                >
                   icon-facebook.svg
                 </svg>
-                <svg>
+                <svg
+                  class="Icon"
+                >
                   icon-instagram.svg
                 </svg>
               </div>
@@ -209,16 +217,24 @@ Object {
               class="Logos"
               data-testid="Logos"
             >
-              <svg>
+              <svg
+                class="Icon"
+              >
                 icon-twitter.svg
               </svg>
-              <svg>
+              <svg
+                class="Icon"
+              >
                 icon-pinterest.svg
               </svg>
-              <svg>
+              <svg
+                class="Icon"
+              >
                 icon-facebook.svg
               </svg>
-              <svg>
+              <svg
+                class="Icon"
+              >
                 icon-instagram.svg
               </svg>
             </div>

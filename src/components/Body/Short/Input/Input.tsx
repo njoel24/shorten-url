@@ -20,7 +20,7 @@ const Input = () => {
 
   return (<div className={styles.InputContainer} data-testid="Input">
     <div className={styles.InputWrapper}>
-      <input className={classNames(styles.Input, {[styles.EmptySearchError]: emptySearchError})} value={url} onChange={(event) => setUrl(event.currentTarget.value)} placeholder='Shorten a link here...' />
+      <input className={classNames(styles.Input, {[styles.EmptySearchError]: emptySearchError})} value={url} onChange={(event) => setUrl(event.currentTarget.value)} placeholder='  Shorten a link here...' />
       {emptySearchError && <span className={styles.EmptySearchErrorText}>Please, add a link</span>}
     </div>
     <div className={styles.ButtonContainer} >

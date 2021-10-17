@@ -10,7 +10,6 @@
 .Left {
     display: flex;
     align-items: center;
-    width: 35%;
 }
 
 @media only screen and (max-width: 1024px) {

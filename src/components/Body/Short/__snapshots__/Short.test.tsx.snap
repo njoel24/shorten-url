@@ -18,7 +18,7 @@ Object {
           >
             <input
               class="Input"
-              placeholder="Shorten a link here..."
+              placeholder="  Shorten a link here..."
               value=""
             />
           </div>
@@ -53,7 +53,7 @@ Object {
         >
           <input
             class="Input"
-            placeholder="Shorten a link here..."
+            placeholder="  Shorten a link here..."
             value=""
           />
         </div>
