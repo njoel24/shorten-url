@@ -25,6 +25,11 @@
   src: url("./assets/poppins/Poppins-Light.ttf");
 }
 
+@font-face {
+  font-family: "Poppins-Italic";
+  src: url("./assets/poppins/Poppins-Italic.ttf");
+}
+
 body {
   margin: 0;
   font-family: var(--fontFamily); 

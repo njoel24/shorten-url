@@ -1,5 +1,5 @@
 .InputContainer {
-    padding: 50px;
+    padding: 40px;
     background: url('../../../../assets/bg-shorten-desktop.svg');
     background-color: var(--darkViolet);
     background-repeat: no-repeat;
@@ -14,13 +14,28 @@
     width: 20%;
 }
 
+.InputWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.InputWrapper .EmptySearchErrorText {
+    font-family: 'Poppins-Italic';
+    color: var(--red);
+}
+
 .Input {
-    width: 80%;
-    padding-left: 30px;
+    width: 100%;
     border-radius: 10px;
     font-size: 1.2rem;
     font-family: 'Poppins-Regular';
     color: var(--gray);
+    padding: 14px 0 14px 14px;
+}
+
+.Input.EmptySearchError {
+    border: 2px solid var(--red);
 }
 
 @media only screen and (max-width: 1024px) {

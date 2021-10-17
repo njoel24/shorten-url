@@ -8,6 +8,11 @@ const LastResearches = () => {
   const {lastResearches} = useContext(ShortContext);
   const handleCopy = useCallback((original_link: string, event: React.MouseEvent<HTMLButtonElement>) => {
     copyToClipBoard(original_link);
+    document.querySelectorAll('.tempButtonCopyClass')?.forEach((el) => {
+      (event.target as any).classList.remove('tempButtonCopyClass');
+       el.innerHTML = 'Copy'
+    });
+    (event.target as any).classList.add('tempButtonCopyClass');
     (event.target as any).innerHTML = 'Copied'; 
   }, []);
   return (
@@ -20,7 +25,7 @@ const LastResearches = () => {
             <div className={styles.Right}>
               <span>{short_link}</span>
               <div className={styles.ButtonContainer}>
-                <Button id={id} active square stretch shrinkTop onClickCallback={(event) => handleCopy(original_link, event)}>{'Copy'}</Button>
+                <Button id={id} active square stretch shrink onClickCallback={(event) => handleCopy(original_link, event)}>{'Copy'}</Button>
               </div>
             </div>
           </div>

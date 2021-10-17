@@ -2,7 +2,7 @@
     background: url('../../../assets/illustration-working.svg');
     background-position-x: 800px;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 100%;
     height: 482px;
     margin-top: 50px;
 }
@@ -13,7 +13,7 @@
 
 .BottomHeader .Left {
     width: 640px;
-    margin: 10px 0px;
+    margin: 10px 0px 10px 5%;
 }
 
 .BottomHeader .Left h1 {
