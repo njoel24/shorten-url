@@ -9,12 +9,14 @@ export type ButtonProps = {
     large?: boolean;
     active?: boolean;
     square?: boolean;
+    stretch?: boolean
+    shrinkTop?: boolean;
     onClickCallback?: (event: any) => void;
 }
 
-const Button = ({children, large, active, square, onClickCallback, id, dataTestid}: ButtonProps) => {
+const Button = ({children, large, active, square, onClickCallback, id, dataTestid, stretch, shrinkTop}: ButtonProps) => {
     return (
-        <button data-testid={dataTestid} id={id} className={classNames(styles.Button, {[styles.large]: large, [styles.active]: active, [styles.square]: square})} onClick={onClickCallback}>{children}</button>
+        <button data-testid={dataTestid} id={id} className={classNames(styles.Button, {[styles.shrinkTop]: shrinkTop, [styles.stretch]: stretch, [styles.large]: large, [styles.active]: active, [styles.square]: square})} onClick={onClickCallback}>{children}</button>
     )
 };
 

@@ -11,3 +11,9 @@
     font-weight: var(--fontWeightHard);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1024px) {
+    .TopHeaderMenu {
+      display: none;
+    }
+}

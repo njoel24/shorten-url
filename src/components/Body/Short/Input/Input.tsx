@@ -7,9 +7,11 @@ const Input = () => {
   const [url, setUrl] = useState('');
   const { search } = useContext(ShortContext);
 
-  return (<div className={styles.Input} data-testid="Input">
-    <input className={styles.InputText} value={url} onChange={(event) => setUrl(event.currentTarget.value)} placeholder='Shorten a link here...' />
-    <Button active square large onClickCallback={() => search(url)}>Shorten it!</Button>
+  return (<div className={styles.InputContainer} data-testid="Input">
+    <input className={styles.Input} value={url} onChange={(event) => setUrl(event.currentTarget.value)} placeholder='Shorten a link here...' />
+    <div className={styles.ButtonContainer} >
+      <Button active square large stretch onClickCallback={() => search(url)}>Shorten it!</Button>
+    </div>
   </div>)
 };
 

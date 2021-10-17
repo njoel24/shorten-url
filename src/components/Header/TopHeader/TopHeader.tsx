@@ -3,6 +3,7 @@ import styles from './TopHeader.module.css';
 import {ReactComponent as Logo } from '../../../assets/logo.svg';
 import Menu from './Menu/Menu';
 import Account from './Account/Account';
+import AccountMenuMobile from './AccountMenuMobile/AccountMenuMobile';
 
 const TopHeader = () => (
   <div className={styles.TopHeader} data-testid="TopHeader">
@@ -11,6 +12,7 @@ const TopHeader = () => (
       <Menu />
     </div>
     <Account/>
+    <AccountMenuMobile />
   </div>
 );
 

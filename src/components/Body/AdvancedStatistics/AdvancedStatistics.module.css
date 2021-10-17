@@ -24,3 +24,17 @@
     margin-top: 20px;
     font-size: 1.1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+    .AdvancedStatistics {
+      width: 80%;
+    }
+
+    .AdvancedStatistics h1 {
+        font-size: 1.6rem;
+    }
+
+    .AdvancedStatistics h6 {
+        font-size: 1rem;
+    }
+}

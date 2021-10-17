@@ -9,3 +9,20 @@
     position: relative;
     top: 150px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .InfoBlockWrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .LinkBlock {
+        display: none;
+        width: 8px;
+        height: 30px;
+        background-color: var(--cyan);
+        position: relative;
+        left: 168px;
+        top: 33px;
+    }
+}

@@ -2,7 +2,6 @@
     font-family: 'Poppins-Regular';
     display: flex;
     width: 300px;
-    min-height: 200px;
     flex-direction: column;
     background-color: white;
     padding: 35px;
@@ -47,4 +46,25 @@
     position: absolute;
     top: -30px;
     left: 30px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .InfoBlock {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .InfoBlock .IconWrapper {
+        position: absolute;
+        top: -48px;
+        left: 50%;
+        margin-left: -42px;
+    }
+
+    .InfoBlock .ContentWrapper {
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
 }

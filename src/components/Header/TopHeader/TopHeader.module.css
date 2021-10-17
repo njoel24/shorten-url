@@ -1,7 +1,7 @@
 .TopHeader {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    width: 90%;
+    justify-content: space-between;
     align-items: center;
     color:  var(--gray);
     font-size: 0.9rem;
@@ -11,4 +11,11 @@
     display: flex;
     align-items: center;
     width: 35%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .TopHeader {
+        justify-content: space-between;
+        width: 90%;
+    }
 }

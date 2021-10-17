@@ -1,5 +1,5 @@
 .Button {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-SemiBold';
     font-size: 1rem;
     border: 0;
     padding: 10px 25px;
@@ -28,4 +28,12 @@
 
 .square {
     border-radius: 7px;
+}
+
+.stretch {
+    width: 100%;
+}
+
+.shrinkTop {
+    padding: 5px 10px;
 }

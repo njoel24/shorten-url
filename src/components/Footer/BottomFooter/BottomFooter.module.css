@@ -9,8 +9,9 @@
 
 .BottomFooter .Wrapper {
     display: flex;
-    width: 1100px;
-    gap: 250px;
+    width: 100%;
+    gap: 10%;
+    justify-content: inherit;
 }
 
 .BottomFooter .MenuWrapper {
@@ -20,4 +21,25 @@
 
 .BottomFooter path {
     fill: #fff;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .BottomFooter {
+      flex-direction: column;
+    }
+
+    .BottomFooter .Wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .BottomFooter .MenuWrapper {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
 }

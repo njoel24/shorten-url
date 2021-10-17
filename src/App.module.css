@@ -13,3 +13,9 @@
   justify-content: center;
   background-color: black;
 }
+
+@media only screen and (max-width: 1024px) {
+  .App {
+    width: 100%;
+  }
+}

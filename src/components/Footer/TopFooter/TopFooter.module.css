@@ -5,7 +5,7 @@
     align-content: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     padding: 75px 0;
     background: url('../../../assets/bg-boost-desktop.svg');
     background-color: var(--darkViolet);
@@ -15,4 +15,15 @@
 
 .TopFooter h1 {
     font-family: 'Poppins-Bold';
+}
+
+@media only screen and (max-width: 1024px) {
+    .TopFooter {
+      box-sizing: border-box;
+      padding: 75px 10px;
+    }
+
+    .TopFooter h1 {
+        font-size: 2rem;
+    }
 }

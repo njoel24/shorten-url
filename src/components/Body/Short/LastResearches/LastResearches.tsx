@@ -16,10 +16,12 @@ const LastResearches = () => {
         const id = Math.random().toString();
         return (
           <div key={Math.random()} className={styles.HistoryItem}>
-            <span>{original_link}</span>
+            <span className={styles.OriginalLink}>{original_link}</span>
             <div className={styles.Right}>
               <span>{short_link}</span>
-              <Button id={id} active square onClickCallback={(event) => handleCopy(original_link, event)}>{'Copy'}</Button>
+              <div className={styles.ButtonContainer}>
+                <Button id={id} active square stretch shrinkTop onClickCallback={(event) => handleCopy(original_link, event)}>{'Copy'}</Button>
+              </div>
             </div>
           </div>
         )

@@ -2,14 +2,18 @@
     background: url('../../../assets/illustration-working.svg');
     background-position-x: 800px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
     height: 482px;
     margin-top: 50px;
 }
 
+.BottomHeader .Right {
+    display: none;
+}
+
 .BottomHeader .Left {
     width: 640px;
-    margin: 10px 175px;
+    margin: 10px 0px;
 }
 
 .BottomHeader .Left h1 {
@@ -26,4 +30,36 @@
     color: var(--grayishViolet);
     font-weight: var(--fontWeightSoft);
     margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .BottomHeader {
+        height: 100%;
+    }
+
+    .BottomHeader .Left {
+        width:  100%;
+        margin: 10px 12%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+
+    .BottomHeader .Left h1 {
+        font-size: 2.8rem;
+    }
+
+    .BottomHeader .Left h6 {
+        font-size: 1rem;
+    }
+
+    .BottomHeader .Right {
+        display: none;
+        width: 100%;
+    }
+
+    .BottomHeader .Right svg {
+        width: auto;
+        height: auto;
+    }
 }
