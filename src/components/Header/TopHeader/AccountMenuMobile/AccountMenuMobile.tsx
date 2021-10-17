@@ -1,7 +1,7 @@
 import React from 'react';
-import Account from '../Account/Account';
-import Menu from '../Menu/Menu';
 import styles from './AccountMenuMobile.module.css';
+import AccountMobile from './AccountMobile/AccountMobile';
+import MenuMobile from './MenuMobile/MenuMobile';
 
 export const SHOW_CONTENT_CLASS = styles.Show;
 
@@ -17,8 +17,8 @@ const AccountMenuMobile = () => (
   <div className={styles.AccountMenuMobile} onClick={toggleContentVisibility} data-testid="AccountMenuMobile">
     <div className={styles.Separator}></div>
     <div id='AccountMenuMobile' className={styles.AccountMenuMobileContent}>
-      <Menu />
-      <Account />
+      <MenuMobile />
+      <AccountMobile />
     </div>
   </div>
 );

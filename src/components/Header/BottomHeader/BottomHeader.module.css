@@ -11,10 +11,6 @@
     margin-left: 5%;
 }
 
-.BottomHeader .Right {
-
-}
-
 .BottomHeader .Right svg {
     width: 720px;
 }
@@ -38,6 +34,8 @@
 @media only screen and (max-width: 1350px) {
     .BottomHeader {
         height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .BottomHeader .Left {
@@ -58,7 +56,7 @@
 
     .BottomHeader .Right {
         display: none;
-        width: 100%;
+        width: 70%;
     }
 
     .BottomHeader .Right svg {

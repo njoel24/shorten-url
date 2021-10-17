@@ -1,0 +1,20 @@
+.MenuMobile {
+    font-family: 'Poppins-Bold';
+    display: flex;
+    font-size: 1rem;
+    gap: 20px;
+    width: 100%;
+    list-style-type: none;
+    font-weight: var(--fontWeightHard);
+    color: var(--grayishViolet);
+    flex-direction: column;
+    padding: 0;
+    height: 33%;
+}
+
+.MenuMobile li {
+    color: white;;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+}

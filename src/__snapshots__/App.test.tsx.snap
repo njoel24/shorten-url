@@ -72,8 +72,8 @@ Object {
                     id="AccountMenuMobile"
                   >
                     <ul
-                      class="TopHeaderMenu"
-                      data-testid="Menu"
+                      class="MenuMobile"
+                      data-testid="MenuMobile"
                     >
                       <li>
                         Features
@@ -85,21 +85,21 @@ Object {
                         Resources
                       </li>
                     </ul>
-                    <ul
-                      class="Account"
-                      data-testid="Account"
+                    <div
+                      class="AccountMobile"
+                      data-testid="AccountMobile"
                     >
                       <button
-                        class="Button"
+                        class="Button stretch large"
                       >
                         Login
                       </button>
                       <button
-                        class="Button active"
+                        class="Button stretch large active"
                       >
-                        Sign Up
+                        Sign up
                       </button>
-                    </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -451,8 +451,8 @@ Object {
                   id="AccountMenuMobile"
                 >
                   <ul
-                    class="TopHeaderMenu"
-                    data-testid="Menu"
+                    class="MenuMobile"
+                    data-testid="MenuMobile"
                   >
                     <li>
                       Features
@@ -464,21 +464,21 @@ Object {
                       Resources
                     </li>
                   </ul>
-                  <ul
-                    class="Account"
-                    data-testid="Account"
+                  <div
+                    class="AccountMobile"
+                    data-testid="AccountMobile"
                   >
                     <button
-                      class="Button"
+                      class="Button stretch large"
                     >
                       Login
                     </button>
                     <button
-                      class="Button active"
+                      class="Button stretch large active"
                     >
-                      Sign Up
+                      Sign up
                     </button>
-                  </ul>
+                  </div>
                 </div>
               </div>
             </div>
