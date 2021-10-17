@@ -11,4 +11,10 @@ describe('<Body />', () => {
 
     expect(body).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<Body />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

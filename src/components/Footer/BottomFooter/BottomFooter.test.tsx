@@ -9,4 +9,10 @@ describe('<BottomFooter />', () => {
     const bottomFooter = screen.getByTestId('BottomFooter');
     expect(bottomFooter).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<BottomFooter />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

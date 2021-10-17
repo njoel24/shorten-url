@@ -1,0 +1,800 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should match the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="AppContainer"
+        data-testid="App"
+      >
+        <div
+          class="App"
+          data-testid="App"
+        >
+          <header
+            class="Header"
+            data-testid="Header"
+          >
+            <div
+              class="HeaderWrapper"
+            >
+              <div
+                class="TopHeader"
+                data-testid="TopHeader"
+              >
+                <div
+                  class="Left"
+                >
+                  <svg>
+                    logo.svg
+                  </svg>
+                  <ul
+                    class="TopHeaderMenu"
+                    data-testid="Menu"
+                  >
+                    <li>
+                      Features
+                    </li>
+                    <li>
+                      Pricing
+                    </li>
+                    <li>
+                      Resources
+                    </li>
+                  </ul>
+                </div>
+                <ul
+                  class="Account"
+                  data-testid="Account"
+                >
+                  <button
+                    class="Button"
+                  >
+                    Login
+                  </button>
+                  <button
+                    class="Button active"
+                  >
+                    Sign Up
+                  </button>
+                </ul>
+                <div
+                  class="AccountMenuMobile"
+                  data-testid="AccountMenuMobile"
+                >
+                  <div
+                    class="Separator"
+                  />
+                  <div
+                    class="AccountMenuMobileContent"
+                    id="AccountMenuMobile"
+                  >
+                    <ul
+                      class="TopHeaderMenu"
+                      data-testid="Menu"
+                    >
+                      <li>
+                        Features
+                      </li>
+                      <li>
+                        Pricing
+                      </li>
+                      <li>
+                        Resources
+                      </li>
+                    </ul>
+                    <ul
+                      class="Account"
+                      data-testid="Account"
+                    >
+                      <button
+                        class="Button"
+                      >
+                        Login
+                      </button>
+                      <button
+                        class="Button active"
+                      >
+                        Sign Up
+                      </button>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="BottomHeader"
+                data-testid="BottomHeader"
+              >
+                <div
+                  class="Right"
+                >
+                  <svg>
+                    illustration-working.svg
+                  </svg>
+                </div>
+                <div
+                  class="Left"
+                >
+                  <h1>
+                    More than just shorten links
+                  </h1>
+                  <h6>
+                    Build your brand's recognition and get detailed insight on how your links are performing
+                  </h6>
+                  <button
+                    class="Button large active"
+                    data-testid="BottomHeaderButton"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div
+            class="Body"
+            data-testid="Body"
+          >
+            <div
+              class="ContentWrapper"
+            >
+              <div
+                class="Short"
+                data-testid="Short"
+              >
+                <div
+                  class="InputContainer"
+                  data-testid="Input"
+                >
+                  <div
+                    class="InputWrapper"
+                  >
+                    <input
+                      class="Input"
+                      placeholder="Shorten a link here..."
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="ButtonContainer"
+                  >
+                    <button
+                      class="Button stretch large active square"
+                    >
+                      Shorten it!
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="AdvancedStatistics"
+                data-testid="AdvancedStatistics"
+              >
+                <div
+                  class="ContentWrapper"
+                >
+                  <h1>
+                    Advanced Statistics
+                  </h1>
+                  <h6>
+                    Track how your links are performing across the web with our advanced statitics dashboard
+                  </h6>
+                </div>
+                <div
+                  class="InfoBlockWrapper"
+                  data-testid="InfoBlockWrapper"
+                >
+                  <div
+                    class="InfoBlock"
+                    data-testid="InfoBlock"
+                  >
+                    <div
+                      class="IconWrapper"
+                    >
+                      <svg>
+                        icon-brand-recognition.svg
+                      </svg>
+                    </div>
+                    <div
+                      class="ContentWrapper"
+                    >
+                      <h3>
+                        Brand Recognition
+                      </h3>
+                      <h6>
+                        Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.
+                      </h6>
+                    </div>
+                  </div>
+                  <div
+                    class="LinkBlock"
+                  />
+                  <div
+                    class="InfoBlock"
+                    data-testid="InfoBlock"
+                  >
+                    <div
+                      class="IconWrapper"
+                    >
+                      <svg>
+                        icon-detailed-records.svg
+                      </svg>
+                    </div>
+                    <div
+                      class="ContentWrapper"
+                    >
+                      <h3>
+                        Detailed Records
+                      </h3>
+                      <h6>
+                        Gain insights who is clicking your links. Knowing when and where people engage with your content  helps inform better decisions
+                      </h6>
+                    </div>
+                  </div>
+                  <div
+                    class="LinkBlock"
+                  />
+                  <div
+                    class="InfoBlock"
+                    data-testid="InfoBlock"
+                  >
+                    <div
+                      class="IconWrapper"
+                    >
+                      <svg>
+                        icon-fully-customizable.svg
+                      </svg>
+                    </div>
+                    <div
+                      class="ContentWrapper"
+                    >
+                      <h3>
+                        Fully Customizable
+                      </h3>
+                      <h6>
+                        Improve brand awareness and content discoverability through customizable links, supercharging audience engagement
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Footer"
+            data-testid="Footer"
+          >
+            <div
+              class="TopFooter"
+              data-testid="TopFooter"
+            >
+              <h1>
+                Boost your Links today
+              </h1>
+              <button
+                class="Button large active"
+                data-testid="TopFooterButton"
+              >
+                Get Started
+              </button>
+            </div>
+            <div
+              class="BottomFooter"
+              data-testid="BottomFooter"
+            >
+              <div
+                class="Wrapper"
+              >
+                <svg>
+                  logo.svg
+                </svg>
+                <div
+                  class="MenuWrapper"
+                >
+                  <div
+                    class="BottomFooterMenu"
+                    data-testid="BottomFooterMenu"
+                  >
+                    <div>
+                      Features
+                    </div>
+                    <ul>
+                      <li>
+                        Link Shortening
+                      </li>
+                      <li>
+                        Branded Links
+                      </li>
+                      <li>
+                        Analytics
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="BottomFooterMenu"
+                    data-testid="BottomFooterMenu"
+                  >
+                    <div>
+                      Resources
+                    </div>
+                    <ul>
+                      <li>
+                        Blog
+                      </li>
+                      <li>
+                        Developers
+                      </li>
+                      <li>
+                        Support
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="BottomFooterMenu"
+                    data-testid="BottomFooterMenu"
+                  >
+                    <div>
+                      Company
+                    </div>
+                    <ul>
+                      <li>
+                        About
+                      </li>
+                      <li>
+                        Our Team
+                      </li>
+                      <li>
+                        Careers
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="Logos"
+                    data-testid="Logos"
+                  >
+                    <svg>
+                      icon-twitter.svg
+                    </svg>
+                    <svg>
+                      icon-pinterest.svg
+                    </svg>
+                    <svg>
+                      icon-facebook.svg
+                    </svg>
+                    <svg>
+                      icon-instagram.svg
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="AppContainer"
+      data-testid="App"
+    >
+      <div
+        class="App"
+        data-testid="App"
+      >
+        <header
+          class="Header"
+          data-testid="Header"
+        >
+          <div
+            class="HeaderWrapper"
+          >
+            <div
+              class="TopHeader"
+              data-testid="TopHeader"
+            >
+              <div
+                class="Left"
+              >
+                <svg>
+                  logo.svg
+                </svg>
+                <ul
+                  class="TopHeaderMenu"
+                  data-testid="Menu"
+                >
+                  <li>
+                    Features
+                  </li>
+                  <li>
+                    Pricing
+                  </li>
+                  <li>
+                    Resources
+                  </li>
+                </ul>
+              </div>
+              <ul
+                class="Account"
+                data-testid="Account"
+              >
+                <button
+                  class="Button"
+                >
+                  Login
+                </button>
+                <button
+                  class="Button active"
+                >
+                  Sign Up
+                </button>
+              </ul>
+              <div
+                class="AccountMenuMobile"
+                data-testid="AccountMenuMobile"
+              >
+                <div
+                  class="Separator"
+                />
+                <div
+                  class="AccountMenuMobileContent"
+                  id="AccountMenuMobile"
+                >
+                  <ul
+                    class="TopHeaderMenu"
+                    data-testid="Menu"
+                  >
+                    <li>
+                      Features
+                    </li>
+                    <li>
+                      Pricing
+                    </li>
+                    <li>
+                      Resources
+                    </li>
+                  </ul>
+                  <ul
+                    class="Account"
+                    data-testid="Account"
+                  >
+                    <button
+                      class="Button"
+                    >
+                      Login
+                    </button>
+                    <button
+                      class="Button active"
+                    >
+                      Sign Up
+                    </button>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="BottomHeader"
+              data-testid="BottomHeader"
+            >
+              <div
+                class="Right"
+              >
+                <svg>
+                  illustration-working.svg
+                </svg>
+              </div>
+              <div
+                class="Left"
+              >
+                <h1>
+                  More than just shorten links
+                </h1>
+                <h6>
+                  Build your brand's recognition and get detailed insight on how your links are performing
+                </h6>
+                <button
+                  class="Button large active"
+                  data-testid="BottomHeaderButton"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div
+          class="Body"
+          data-testid="Body"
+        >
+          <div
+            class="ContentWrapper"
+          >
+            <div
+              class="Short"
+              data-testid="Short"
+            >
+              <div
+                class="InputContainer"
+                data-testid="Input"
+              >
+                <div
+                  class="InputWrapper"
+                >
+                  <input
+                    class="Input"
+                    placeholder="Shorten a link here..."
+                    value=""
+                  />
+                </div>
+                <div
+                  class="ButtonContainer"
+                >
+                  <button
+                    class="Button stretch large active square"
+                  >
+                    Shorten it!
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="AdvancedStatistics"
+              data-testid="AdvancedStatistics"
+            >
+              <div
+                class="ContentWrapper"
+              >
+                <h1>
+                  Advanced Statistics
+                </h1>
+                <h6>
+                  Track how your links are performing across the web with our advanced statitics dashboard
+                </h6>
+              </div>
+              <div
+                class="InfoBlockWrapper"
+                data-testid="InfoBlockWrapper"
+              >
+                <div
+                  class="InfoBlock"
+                  data-testid="InfoBlock"
+                >
+                  <div
+                    class="IconWrapper"
+                  >
+                    <svg>
+                      icon-brand-recognition.svg
+                    </svg>
+                  </div>
+                  <div
+                    class="ContentWrapper"
+                  >
+                    <h3>
+                      Brand Recognition
+                    </h3>
+                    <h6>
+                      Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  class="LinkBlock"
+                />
+                <div
+                  class="InfoBlock"
+                  data-testid="InfoBlock"
+                >
+                  <div
+                    class="IconWrapper"
+                  >
+                    <svg>
+                      icon-detailed-records.svg
+                    </svg>
+                  </div>
+                  <div
+                    class="ContentWrapper"
+                  >
+                    <h3>
+                      Detailed Records
+                    </h3>
+                    <h6>
+                      Gain insights who is clicking your links. Knowing when and where people engage with your content  helps inform better decisions
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  class="LinkBlock"
+                />
+                <div
+                  class="InfoBlock"
+                  data-testid="InfoBlock"
+                >
+                  <div
+                    class="IconWrapper"
+                  >
+                    <svg>
+                      icon-fully-customizable.svg
+                    </svg>
+                  </div>
+                  <div
+                    class="ContentWrapper"
+                  >
+                    <h3>
+                      Fully Customizable
+                    </h3>
+                    <h6>
+                      Improve brand awareness and content discoverability through customizable links, supercharging audience engagement
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Footer"
+          data-testid="Footer"
+        >
+          <div
+            class="TopFooter"
+            data-testid="TopFooter"
+          >
+            <h1>
+              Boost your Links today
+            </h1>
+            <button
+              class="Button large active"
+              data-testid="TopFooterButton"
+            >
+              Get Started
+            </button>
+          </div>
+          <div
+            class="BottomFooter"
+            data-testid="BottomFooter"
+          >
+            <div
+              class="Wrapper"
+            >
+              <svg>
+                logo.svg
+              </svg>
+              <div
+                class="MenuWrapper"
+              >
+                <div
+                  class="BottomFooterMenu"
+                  data-testid="BottomFooterMenu"
+                >
+                  <div>
+                    Features
+                  </div>
+                  <ul>
+                    <li>
+                      Link Shortening
+                    </li>
+                    <li>
+                      Branded Links
+                    </li>
+                    <li>
+                      Analytics
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="BottomFooterMenu"
+                  data-testid="BottomFooterMenu"
+                >
+                  <div>
+                    Resources
+                  </div>
+                  <ul>
+                    <li>
+                      Blog
+                    </li>
+                    <li>
+                      Developers
+                    </li>
+                    <li>
+                      Support
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="BottomFooterMenu"
+                  data-testid="BottomFooterMenu"
+                >
+                  <div>
+                    Company
+                  </div>
+                  <ul>
+                    <li>
+                      About
+                    </li>
+                    <li>
+                      Our Team
+                    </li>
+                    <li>
+                      Careers
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="Logos"
+                  data-testid="Logos"
+                >
+                  <svg>
+                    icon-twitter.svg
+                  </svg>
+                  <svg>
+                    icon-pinterest.svg
+                  </svg>
+                  <svg>
+                    icon-facebook.svg
+                  </svg>
+                  <svg>
+                    icon-instagram.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -11,4 +11,10 @@ describe('<AdvancedStatistics />', () => {
 
     expect(advancedStatistics).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<AdvancedStatistics />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

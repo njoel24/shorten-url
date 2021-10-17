@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoBlockWrapper /> it should match the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="InfoBlockWrapper"
+        data-testid="InfoBlockWrapper"
+      >
+        <div
+          class="InfoBlock"
+          data-testid="InfoBlock"
+        >
+          <div
+            class="IconWrapper"
+          >
+            <svg>
+              icon-brand-recognition.svg
+            </svg>
+          </div>
+          <div
+            class="ContentWrapper"
+          >
+            <h3>
+              Brand Recognition
+            </h3>
+            <h6>
+              Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.
+            </h6>
+          </div>
+        </div>
+        <div
+          class="LinkBlock"
+        />
+        <div
+          class="InfoBlock"
+          data-testid="InfoBlock"
+        >
+          <div
+            class="IconWrapper"
+          >
+            <svg>
+              icon-detailed-records.svg
+            </svg>
+          </div>
+          <div
+            class="ContentWrapper"
+          >
+            <h3>
+              Detailed Records
+            </h3>
+            <h6>
+              Gain insights who is clicking your links. Knowing when and where people engage with your content  helps inform better decisions
+            </h6>
+          </div>
+        </div>
+        <div
+          class="LinkBlock"
+        />
+        <div
+          class="InfoBlock"
+          data-testid="InfoBlock"
+        >
+          <div
+            class="IconWrapper"
+          >
+            <svg>
+              icon-fully-customizable.svg
+            </svg>
+          </div>
+          <div
+            class="ContentWrapper"
+          >
+            <h3>
+              Fully Customizable
+            </h3>
+            <h6>
+              Improve brand awareness and content discoverability through customizable links, supercharging audience engagement
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="InfoBlockWrapper"
+      data-testid="InfoBlockWrapper"
+    >
+      <div
+        class="InfoBlock"
+        data-testid="InfoBlock"
+      >
+        <div
+          class="IconWrapper"
+        >
+          <svg>
+            icon-brand-recognition.svg
+          </svg>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <h3>
+            Brand Recognition
+          </h3>
+          <h6>
+            Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.
+          </h6>
+        </div>
+      </div>
+      <div
+        class="LinkBlock"
+      />
+      <div
+        class="InfoBlock"
+        data-testid="InfoBlock"
+      >
+        <div
+          class="IconWrapper"
+        >
+          <svg>
+            icon-detailed-records.svg
+          </svg>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <h3>
+            Detailed Records
+          </h3>
+          <h6>
+            Gain insights who is clicking your links. Knowing when and where people engage with your content  helps inform better decisions
+          </h6>
+        </div>
+      </div>
+      <div
+        class="LinkBlock"
+      />
+      <div
+        class="InfoBlock"
+        data-testid="InfoBlock"
+      >
+        <div
+          class="IconWrapper"
+        >
+          <svg>
+            icon-fully-customizable.svg
+          </svg>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <h3>
+            Fully Customizable
+          </h3>
+          <h6>
+            Improve brand awareness and content discoverability through customizable links, supercharging audience engagement
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

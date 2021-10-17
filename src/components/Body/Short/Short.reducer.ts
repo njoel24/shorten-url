@@ -1,4 +1,3 @@
-import { setCache } from "../../../utils/cacheUtils";
 import { LAST_RESEARCH_SIZE, SET_LAST_RESEARCHES_ACTION } from "./Short.const";
 import { ShortenResponse, ShortenResult } from "./Short.types";
 
@@ -11,7 +10,6 @@ export function lastResearchReducer(state: Array<ShortenResult>, action: {type: 
         } else {
           results = [...state, (action.payload.result)]
         }
-        setCache(results);
         return results;
       default:
         return state;

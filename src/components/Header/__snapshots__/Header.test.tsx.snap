@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> it should match the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="Header"
+        data-testid="Header"
+      >
+        <div
+          class="HeaderWrapper"
+        >
+          <div
+            class="TopHeader"
+            data-testid="TopHeader"
+          >
+            <div
+              class="Left"
+            >
+              <svg>
+                logo.svg
+              </svg>
+              <ul
+                class="TopHeaderMenu"
+                data-testid="Menu"
+              >
+                <li>
+                  Features
+                </li>
+                <li>
+                  Pricing
+                </li>
+                <li>
+                  Resources
+                </li>
+              </ul>
+            </div>
+            <ul
+              class="Account"
+              data-testid="Account"
+            >
+              <button
+                class="Button"
+              >
+                Login
+              </button>
+              <button
+                class="Button active"
+              >
+                Sign Up
+              </button>
+            </ul>
+            <div
+              class="AccountMenuMobile"
+              data-testid="AccountMenuMobile"
+            >
+              <div
+                class="Separator"
+              />
+              <div
+                class="AccountMenuMobileContent"
+                id="AccountMenuMobile"
+              >
+                <ul
+                  class="TopHeaderMenu"
+                  data-testid="Menu"
+                >
+                  <li>
+                    Features
+                  </li>
+                  <li>
+                    Pricing
+                  </li>
+                  <li>
+                    Resources
+                  </li>
+                </ul>
+                <ul
+                  class="Account"
+                  data-testid="Account"
+                >
+                  <button
+                    class="Button"
+                  >
+                    Login
+                  </button>
+                  <button
+                    class="Button active"
+                  >
+                    Sign Up
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="BottomHeader"
+            data-testid="BottomHeader"
+          >
+            <div
+              class="Right"
+            >
+              <svg>
+                illustration-working.svg
+              </svg>
+            </div>
+            <div
+              class="Left"
+            >
+              <h1>
+                More than just shorten links
+              </h1>
+              <h6>
+                Build your brand's recognition and get detailed insight on how your links are performing
+              </h6>
+              <button
+                class="Button large active"
+                data-testid="BottomHeaderButton"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="Header"
+      data-testid="Header"
+    >
+      <div
+        class="HeaderWrapper"
+      >
+        <div
+          class="TopHeader"
+          data-testid="TopHeader"
+        >
+          <div
+            class="Left"
+          >
+            <svg>
+              logo.svg
+            </svg>
+            <ul
+              class="TopHeaderMenu"
+              data-testid="Menu"
+            >
+              <li>
+                Features
+              </li>
+              <li>
+                Pricing
+              </li>
+              <li>
+                Resources
+              </li>
+            </ul>
+          </div>
+          <ul
+            class="Account"
+            data-testid="Account"
+          >
+            <button
+              class="Button"
+            >
+              Login
+            </button>
+            <button
+              class="Button active"
+            >
+              Sign Up
+            </button>
+          </ul>
+          <div
+            class="AccountMenuMobile"
+            data-testid="AccountMenuMobile"
+          >
+            <div
+              class="Separator"
+            />
+            <div
+              class="AccountMenuMobileContent"
+              id="AccountMenuMobile"
+            >
+              <ul
+                class="TopHeaderMenu"
+                data-testid="Menu"
+              >
+                <li>
+                  Features
+                </li>
+                <li>
+                  Pricing
+                </li>
+                <li>
+                  Resources
+                </li>
+              </ul>
+              <ul
+                class="Account"
+                data-testid="Account"
+              >
+                <button
+                  class="Button"
+                >
+                  Login
+                </button>
+                <button
+                  class="Button active"
+                >
+                  Sign Up
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="BottomHeader"
+          data-testid="BottomHeader"
+        >
+          <div
+            class="Right"
+          >
+            <svg>
+              illustration-working.svg
+            </svg>
+          </div>
+          <div
+            class="Left"
+          >
+            <h1>
+              More than just shorten links
+            </h1>
+            <h6>
+              Build your brand's recognition and get detailed insight on how your links are performing
+            </h6>
+            <button
+              class="Button large active"
+              data-testid="BottomHeaderButton"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

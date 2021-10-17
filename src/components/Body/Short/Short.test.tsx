@@ -11,4 +11,10 @@ describe('<Short />', () => {
 
     expect(short).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<Short />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

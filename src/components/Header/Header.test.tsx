@@ -11,4 +11,10 @@ describe('<Header />', () => {
 
     expect(header).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<Header />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

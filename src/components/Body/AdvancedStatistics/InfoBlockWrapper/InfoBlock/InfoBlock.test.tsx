@@ -5,7 +5,7 @@ import InfoBlock from './InfoBlock';
 
 describe('<InfoBlock />', () => {
   test('it should mount', () => {
-    render(<InfoBlock />);
+    render(<InfoBlock Icon={() => null} />);
     
     const infoBlock = screen.getByTestId('InfoBlock');
 

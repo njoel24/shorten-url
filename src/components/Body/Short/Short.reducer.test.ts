@@ -10,7 +10,7 @@ jest.mock('../../../utils/cacheUtils', () => ({
 }));
 
 describe('Short reducer', () => {
-  test('it should set last researches and update the local storage', () => {
+  test('it should set last researches', () => {
     const lastResearchResponse: ShortenResponse = {
       ok: true,
       result: {
@@ -27,10 +27,9 @@ describe('Short reducer', () => {
       }
   }
     expect(lastResearchReducer([], {type: SET_LAST_RESEARCHES_ACTION, payload: lastResearchResponse})).toEqual([lastResearchResponse.result])
-    expect(setCache).toHaveBeenCalled()
   });
 
-  test('it should override the first element with last addition and cache it', () => {
+  test('it should override the first element with last addition', () => {
     const lastResearchResponse: ShortenResponse = {
       ok: true,
       result: {
@@ -47,6 +46,5 @@ describe('Short reducer', () => {
       }
   }
     expect(lastResearchReducer([lastResearchResponse.result, lastResearchResponse.result, lastResearchResponse.result, lastResearchResponse.result, lastResearchResponse.result], {type: SET_LAST_RESEARCHES_ACTION, payload: lastResearchResponse})).toHaveLength(5)
-    expect(setCache).toHaveBeenCalled()
   });
 });

@@ -11,4 +11,10 @@ describe('<Logos />', () => {
 
     expect(logos).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<Logos />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

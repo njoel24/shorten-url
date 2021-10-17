@@ -11,4 +11,10 @@ describe('<InfoBlockWrapper />', () => {
 
     expect(infoBlockWrapper).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<InfoBlockWrapper />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });

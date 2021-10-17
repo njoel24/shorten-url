@@ -11,4 +11,10 @@ describe('<Footer />', () => {
 
     expect(footer).toBeInTheDocument();
   });
+
+  test('it should match the snapshot', () => {
+    const wrapper = render(<Footer />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
 });
